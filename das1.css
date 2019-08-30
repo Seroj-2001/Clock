@@ -1,0 +1,43 @@
+@font-face{
+    font-family:Digital;
+    src:url('digital-7.ttf');
+}
+* {
+    font-family: Digital;
+}
+html{
+    min-height: 100%;
+
+    
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    
+}
+
+
+#d{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:800px;
+    height: 200px;
+}
+ #d div{
+    width:200px;
+     height: 200px;
+     float: left;
+     color:lime;
+     font-size:150px;
+     text-align: center;
+     line-height:200px;
+     font-size: 250px;
+     
+}
+#d #i2,#d #i4{
+    width: 100px;
+    
+}
